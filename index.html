@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <h1>Home</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <i class="material-icons">search</i>
+        </div>
+    </nav>
+
+    <!-- Promotional Banner Section -->
+    <div class="banner-section">
+        <div class="banner-wrapper">
+            <div class="banner-container">
+                <div class="banner active">
+                    <div class="banner-content mango-banner">
+                        <h2>Dil Mango More</h2>
+                        <div class="offer">UPTO ₹20 OFF</div>
+                        <p>One stop shop for all things mango</p>
+                        <button class="order-btn">Order Now</button>
+                        <div class="mango-splash">
+                            <img src="https://www.pngall.com/wp-content/uploads/2016/05/Mango-Download-PNG.png" alt="Mango">
+                        </div>
+                    </div>
+                </div>
+                <div class="banner">
+                    <img src="https://images.unsplash.com/photo-1609842947419-ba4f04d5f36f?q=80" alt="Fresh Vegetables">
+                    <div class="banner-content">
+                        <h2>Fresh Vegetables</h2>
+                        <p>20% OFF on all vegetables</p>
+                        <button>Shop Now</button>
+                    </div>
+                </div>
+                <div class="banner">
+                    <img src="https://images.unsplash.com/photo-1608686207856-001b95cf60ca?q=80" alt="Daily Essentials">
+                    <div class="banner-content">
+                        <h2>Daily Essentials</h2>
+                        <p>Up to 50% OFF</p>
+                        <button>Explore</button>
+                    </div>
+                </div>
+            </div>
+            <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <div class="section-header">
+            <h2>Explore All Categories</h2>
+            <button class="see-all">See All</button>
+        </div>
+        <div class="categories-scroll">
+            <div class="categories-row">
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?q=80" alt="Fruits & Vegetables">
+                    <span>Fruits & Vegetables</span>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80" alt="Dairy & Eggs">
+                    <span>Dairy & Eggs</span>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1609501967126-1a43c02f655f?q=80" alt="Atta & Grains">
+                    <span>Atta & Grains</span>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?q=80" alt="Snacks">
+                    <span>Snacks</span>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1528821128474-27f963b062bf?q=80" alt="Beverages">
+                    <span>Beverages</span>
+                </div>
+            </div>
+            <div class="categories-row">
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?q=80" alt="Cleaning">
+                    <span>Cleaning</span>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80" alt="Personal Care">
+                    <span>Personal Care</span>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1608686207856-001b95cf60ca?q=80" alt="Home Care">
+                    <span>Home Care</span>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?q=80" alt="Baby Care">
+                    <span>Baby Care</span>
+                </div>
+                <div class="category-item">
+                    <img src="https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?q=80" alt="Pet Care">
+                    <span>Pet Care</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Sections -->
+    <section class="product-section">
+        <div class="section-header">
+            <h2>Atta</h2>
+            <button class="see-all">See All</button>
+        </div>
+        <div class="products-container">
+            <div class="product-card">
+                <div class="discount-badge">₹43 off</div>
+                <img src="https://www.bigbasket.com/media/uploads/p/l/126903_8-aashirvaad-atta-whole-wheat.jpg" alt="Aashirvaad Atta">
+                <div class="product-details">
+                    <h3>Aashirvaad Atta</h3>
+                    <p class="weight">5 kg</p>
+                    <div class="price">
+                        <span class="current-price">₹303</span>
+                        <span class="mrp">MRP ₹346</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="discount-badge">₹87 off</div>
+                <img src="https://www.bigbasket.com/media/uploads/p/l/147617_8-pillsbury-atta-whole-wheat.jpg" alt="Pillsbury Atta">
+                <div class="product-details">
+                    <h3>Pillsbury Chakki Fresh</h3>
+                    <p class="weight">5 kg</p>
+                    <div class="price">
+                        <span class="current-price">₹254</span>
+                        <span class="mrp">MRP ₹341</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="discount-badge">₹55 off</div>
+                <img src="https://www.jiomart.com/images/product/original/491349660/fortune-chakki-fresh-atta-5-kg-product-images-o491349660-p491349660-0-202203150816.jpg" alt="Fortune Atta">
+                <div class="product-details">
+                    <h3>Fortune Chakki Fresh</h3>
+                    <p class="weight">5 kg</p>
+                    <div class="price">
+                        <span class="current-price">₹275</span>
+                        <span class="mrp">MRP ₹330</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add new product section -->
+    <section class="product-section">
+        <div class="section-header">
+            <h2>Laundry Care</h2>
+            <button class="see-all">See All</button>
+        </div>
+        <div class="products-container">
+            <div class="product-card">
+                <div class="discount-badge">₹177 off</div>
+                <img src="https://www.bigbasket.com/media/uploads/p/l/267012_9-surf-excel-easy-wash-detergent-powder.jpg" alt="Surf Excel">
+                <div class="product-details">
+                    <h3>Surf Excel Matic</h3>
+                    <p class="weight">2 L</p>
+                    <div class="price">
+                        <span class="current-price">₹538</span>
+                        <span class="mrp">MRP ₹715</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="discount-badge">₹298 off</div>
+                <img src="https://www.jiomart.com/images/product/original/490003832/surf-excel-quick-wash-detergent-powder-4-kg-product-images-o490003832-p490003832-0-202203170432.jpg" alt="Surf Excel">
+                <div class="product-details">
+                    <h3>Surf Excel Easy Wash</h3>
+                    <p class="weight">4 kg</p>
+                    <div class="price">
+                        <span class="current-price">₹497</span>
+                        <span class="mrp">MRP ₹795</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <a href="#" class="active"><i class="material-icons">home</i></a>
+        <a href="#"><i class="material-icons">search</i></a>
+        <a href="#"><i class="material-icons">shopping_cart</i></a>
+        <a href="#"><i class="material-icons">person</i></a>
+    </nav>
+
+    <!-- Product Description Modal -->
+    <div class="product-modal" id="productModal">
+        <div class="modal-header">
+            <button class="back-button">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            <button class="share-button">
+                <i class="material-icons">share</i>
+            </button>
+        </div>
+        <div class="modal-content">
+            <div class="product-images-slider">
+                <div class="slider-wrapper">
+                    <img id="modalProductImage" src="" alt="Product">
+                    <img src="" alt="Product View 2">
+                    <img src="" alt="Product View 3">
+                </div>
+                <div class="slider-dots">
+                    <span class="slider-dot active"></span>
+                    <span class="slider-dot"></span>
+                    <span class="slider-dot"></span>
+                </div>
+            </div>
+            <div class="product-header">
+                <h2 id="modalProductName"></h2>
+                <p class="modal-weight" id="modalWeight"></p>
+            </div>
+            <div class="product-info">
+                <div class="modal-price">
+                    <div class="price-details">
+                        <span class="current-price" id="modalCurrentPrice"></span>
+                        <span class="mrp" id="modalMRP"></span>
+                        <span class="discount" id="modalDiscount"></span>
+                    </div>
+                    <button class="add-to-cart" id="modalAddToCart">Add</button>
+                </div>
+            </div>
+            <div class="product-description">
+                <h3>Product Details</h3>
+                <div class="description-content">
+                    <p>• Fresh and high-quality product</p>
+                    <p>• 100% authentic items</p>
+                    <p>• Packed with care</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
